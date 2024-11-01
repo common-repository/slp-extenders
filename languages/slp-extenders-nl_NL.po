@@ -1,0 +1,1814 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Store Locator Plus® - Extenders\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-29 09:36+0100\n"
+"PO-Revision-Date: 2022-12-29 09:36+0100\n"
+"Last-Translator: De B.A.A.T. <wordpress@de-baat.nl>\n"
+"Language-Team: De B.A.A.T. <slp-extenders@de-baat.nl>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: include/SLP_Extenders.php:205 include/SLP_Extenders.php:382
+msgid "Extenders"
+msgstr "Extenders"
+
+# @ slp-extenders
+#: include/SLP_Extenders.php:435
+msgctxt "timezone date format"
+msgid "Y-m-d G:i:s"
+msgstr "Y-m-d G:i:s"
+
+#: include/base/loader.php:17
+#, php-format
+msgid "%s requires Store Locator Plus to function properly. "
+msgstr "%s heeft Store Locator Plus nodig om goed te functioneren. "
+
+# @ slp-extenders
+#: include/base/loader.php:20 include/base/loader.php:42
+msgid "This plugin has been deactivated."
+msgstr "Deze plug-in is gedeactiveerd."
+
+# @ slp-extenders
+#: include/base/loader.php:21
+msgid "Please install Store Locator Plus."
+msgstr "Installeer Store Locator Plus aub."
+
+#: include/base/loader.php:38
+#, php-format
+msgid "%s requires WordPress %s to function properly. "
+msgstr "%s heeft WordPress %s nodig om goed te functioneren. "
+
+# @ slp-extenders
+#: include/base/loader.php:43
+msgid "Please upgrade WordPress."
+msgstr "Upgrade WordPress aub."
+
+#: include/module/activation/SLP_Extenders_Activation.php:127
+#: include/module/admin/SLP_Extenders_Admin_User_Managed.php:428
+#: include/module/adminui/SLP_Extenders_AdminUI_UserManager_Table.php:77
+msgid "Store User"
+msgstr "Store Gebruiker"
+
+#: include/module/activation/SLP_Extenders_Activation.php:275
+msgid "The basic Facebook social media as provided by default."
+msgstr "De basis Facebook social media zoals standaard meegeleverd."
+
+#: include/module/activation/SLP_Extenders_Activation.php:285
+#: include/module/social/SLP_Extenders_Social_Media.php:112
+msgid "The basic Twitter social media as provided by default."
+msgstr "De basis Twitter social media zoals standaard meegeleverd."
+
+#: include/module/admin/SLP_Extenders_Admin.php:337
+#, php-format
+msgid "The %s add-on deactivated the conflicting %s add-on. "
+msgstr "De %s add-on deactiveerde de conflicterende %s add-on. "
+
+# @ slp-extenders
+#: include/module/admin/SLP_Extenders_Admin.php:405
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: include/module/admin/SLP_Extenders_Admin.php:409
+msgid "Settings"
+msgstr "Instellingen"
+
+# @ slp-extenders
+#: include/module/admin/SLP_Extenders_Admin_Events.php:143
+msgid "Event not added!"
+msgstr "Event niet toegevoegd!"
+
+# @ slp-extenders
+#: include/module/admin/SLP_Extenders_Admin_Events.php:145
+msgid "The add event form on your server is not rendering properly."
+msgstr "Het formulier om een event toe te voegen wordt niet goed verwerkt."
+
+# @ slp-extenders
+#: include/module/admin/SLP_Extenders_Admin_Events.php:147
+#: include/module/admin/SLP_Extenders_Admin_Social_Media.php:295
+#, php-format
+msgid "At least one of the fields %s or %s is mandatory."
+msgstr "Minstens een van de velden %s of %s is verplicht."
+
+# @ slp-extenders
+#: include/module/admin/SLP_Extenders_Admin_Events.php:147
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:232
+#: include/module/events/SLP_Extenders_Events_Object.php:130
+msgid "Event Name"
+msgstr "Event Naam"
+
+# @ slp-extenders
+#: include/module/admin/SLP_Extenders_Admin_Events.php:147
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:243
+#: include/module/events/SLP_Extenders_Events_Object.php:131
+msgid "Event Slug"
+msgstr "Event Slug"
+
+#: include/module/admin/SLP_Extenders_Admin_Events.php:160
+#, php-format
+msgid "Event %s not added because slug %s already exists!"
+msgstr "Event %s niet toegevoegd omdat slug %s al bestaat!"
+
+# @ slp-extenders
+#: include/module/admin/SLP_Extenders_Admin_Events.php:168
+#, php-format
+msgid "Event %s added successfully for %s."
+msgstr "Event %s succesvol toegevoegd voor %s."
+
+# @ slp-extenders
+#: include/module/admin/SLP_Extenders_Admin_Events.php:170
+#, php-format
+msgid "Event %s not added!"
+msgstr "Event %s niet toegevoegd!"
+
+#: include/module/admin/SLP_Extenders_Admin_Info.php:61
+msgid "modules enabled."
+msgstr "modules ingeschakeld."
+
+# @ slp-extenders
+#: include/module/admin/SLP_Extenders_Admin_Location_Filters_Social.php:54
+#: include/module/admin/SLP_Extenders_Admin_Location_Filters_Social.php:78
+msgid "Location Filter:"
+msgstr "Locatie Filter:"
+
+# @ slp-extenders
+#: include/module/admin/SLP_Extenders_Admin_Location_Filters_Social.php:121
+msgid "and"
+msgstr "en"
+
+# @ slp-extenders
+#: include/module/admin/SLP_Extenders_Admin_Location_Filters_Social.php:122
+msgid "or"
+msgstr "of"
+
+#: include/module/admin/SLP_Extenders_Admin_Location_Filters_Social.php:141
+msgid "Name My Social or My* or *Social"
+msgstr "Naam Mijn Social of Mijn* of *Social"
+
+#: include/module/admin/SLP_Extenders_Admin_Location_Filters_Social.php:141
+#: include/module/text/SLP_Extenders_Text.php:151
+msgid "Social Media"
+msgstr "Social Media"
+
+#: include/module/admin/SLP_Extenders_Admin_Location_Filters_Social.php:165
+msgid "Social Media List"
+msgstr "Social Media Lijst"
+
+#: include/module/admin/SLP_Extenders_Admin_Location_Filters_Social.php:166
+msgid "All Social Media"
+msgstr "Alle Social Media"
+
+#: include/module/admin/SLP_Extenders_Admin_Locations_Actions.php:97
+msgid "No locations found to create pages."
+msgstr "Geen locaties gevonden om pagina's aan te maken."
+
+#: include/module/admin/SLP_Extenders_Admin_Locations_Actions.php:116
+msgid "Store Page could not be created."
+msgstr "Store Page kon niet aangemaakt worden."
+
+#: include/module/admin/SLP_Extenders_Admin_Settings.php:44
+msgid " - Extenders"
+msgstr " - Extenders"
+
+#: include/module/admin/SLP_Extenders_Admin_Settings.php:47
+#: include/module/admin/SLP_Extenders_Admin_Settings.php:256
+msgid "Save Extenders Settings"
+msgstr "Bewaar Extenders Instellingen"
+
+#: include/module/admin/SLP_Extenders_Admin_Settings.php:165
+#: include/module/admin/SLP_Extenders_Admin_Settings.php:240
+msgid "Save Setttings"
+msgstr "Bewaar Instellingen"
+
+#: include/module/admin/SLP_Extenders_Admin_Settings.php:188
+#: include/module/text/SLP_Extenders_Text.php:66
+msgid "General Settings"
+msgstr "Algemene Instellingen"
+
+#: include/module/admin/SLP_Extenders_Admin_Settings.php:191
+msgid ""
+"Enable separate functionalities like Social Media, User Managed Locations, "
+"Events."
+msgstr ""
+"Schakel afzonderlijke functionaliteiten in zoals Social Media, User Managed "
+"Locations, Events."
+
+#: include/module/admin/SLP_Extenders_Admin_Settings.php:193
+#: include/module/admin/SLP_Extenders_Admin_Settings.php:241
+msgid "Use the button below to save the settings."
+msgstr "Gebruik de onderstaande knop om de instellingen op te slaan."
+
+#: include/module/admin/SLP_Extenders_Admin_Settings.php:249
+#: include/module/admin/SLP_Extenders_Admin_Settings.php:299
+msgid "These settings impact the general working of the Extenders add-on."
+msgstr ""
+"Deze instellingen zijn van invloed op de algemene werking van de Extenders-"
+"add-on."
+
+#: include/module/admin/SLP_Extenders_Admin_Settings.php:277
+msgid "Save Buttons"
+msgstr "Opslaan Knoppen"
+
+#: include/module/admin/SLP_Extenders_Admin_Settings.php:291
+msgid "Enabling functionalities"
+msgstr "Functionaliteiten inschakelen"
+
+#: include/module/admin/SLP_Extenders_Admin_Settings.php:320
+#: include/module/text/SLP_Extenders_Text.php:73
+msgid "Social Media Settings"
+msgstr "Social Media Instellingen"
+
+#: include/module/admin/SLP_Extenders_Admin_Settings.php:328
+#: include/module/admin/SLP_Extenders_Admin_Settings.php:329
+msgid "These settings impact the general working of Social Media."
+msgstr ""
+"Deze instellingen hebben invloed op de algemene werking van Social Media."
+
+#: include/module/admin/SLP_Extenders_Admin_Settings.php:349
+#: include/module/text/SLP_Extenders_Text.php:67
+msgid "User Managed Settings"
+msgstr "User Managed Instellingen"
+
+#: include/module/admin/SLP_Extenders_Admin_Settings.php:357
+msgid "These settings impact the general working of User Managed Locations."
+msgstr ""
+"Deze instellingen zijn van invloed op de algemene werking van User Managed "
+"Locations."
+
+# @ slp-extenders
+#: include/module/admin/SLP_Extenders_Admin_Settings.php:377
+#: include/module/text/SLP_Extenders_Text.php:74
+msgid "Event Settings"
+msgstr "Event Instellingen"
+
+#: include/module/admin/SLP_Extenders_Admin_Settings.php:385
+msgid "These settings impact the general working of Events."
+msgstr "Deze instellingen zijn van invloed op de algemene werking van Events."
+
+#: include/module/admin/SLP_Extenders_Admin_Settings.php:668
+#: include/module/adminui/SLP_Extenders_AdminUI_UserManager_Table.php:390
+msgid "Manage Users"
+msgstr "Beheer Gebruikers"
+
+#: include/module/admin/SLP_Extenders_Admin_Settings.php:675
+#, php-format
+msgid ""
+"The functionality for managing users is moved to the <a href=\"%s\">admin "
+"Users page</a>."
+msgstr ""
+"De functionaliteit voor het beheren van gebruikers is verplaatst naar de <a "
+"href=\"%s\">Gebruikers pagina</a>."
+
+#: include/module/admin/SLP_Extenders_Admin_Social_Media.php:184
+#: include/module/admin/SLP_Extenders_Admin_Social_Media.php:207
+msgid "With Social Properties"
+msgstr "Met Social Eigenschappen"
+
+#: include/module/admin/SLP_Extenders_Admin_Social_Media.php:293
+msgid "Social Media not added!"
+msgstr "Social Media niet toegevoegd!"
+
+#: include/module/admin/SLP_Extenders_Admin_Social_Media.php:294
+msgid "The add social form on your server is not rendering properly."
+msgstr "Het toevoeg formulier voor social media wordt niet goed weergegeven."
+
+#: include/module/admin/SLP_Extenders_Admin_Social_Media.php:295
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_AddEdit.php:232
+#: include/module/social/SLP_Extenders_Social_Media_Object.php:121
+msgid "Social Name"
+msgstr "Social Naam"
+
+#: include/module/admin/SLP_Extenders_Admin_Social_Media.php:295
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_AddEdit.php:243
+#: include/module/social/SLP_Extenders_Social_Media_Object.php:122
+msgid "Social Slug"
+msgstr "Social Slug"
+
+#: include/module/admin/SLP_Extenders_Admin_Social_Media.php:309
+#, php-format
+msgid "Social %s not added because slug %s already exists!"
+msgstr "Social %s niet toegevoegd omdat slug %s al bestaat!"
+
+#: include/module/admin/SLP_Extenders_Admin_Social_Media.php:316
+#, php-format
+msgid "Social %s added successfully for %s."
+msgstr "Social %s succesvol toegevoegd voor %s."
+
+#: include/module/admin/SLP_Extenders_Admin_Social_Media.php:318
+#, php-format
+msgid "Social %s not added!"
+msgstr "Social %s niet toegevoegd!"
+
+#: include/module/admin/SLP_Extenders_Admin_User_Managed.php:223
+msgid "Assign Store User"
+msgstr "Toekennen Store Gebruiker"
+
+#: include/module/admin/SLP_Extenders_Admin_User_Managed.php:227
+msgid "Define the store user to assign:"
+msgstr "Geef de store gebruikersnaam om toe te kennen:"
+
+#: include/module/admin/SLP_Extenders_Admin_User_Managed.php:234
+msgid "Remove Store User"
+msgstr "Verwijder Store Gebruiker"
+
+#: include/module/admin/SLP_Extenders_Admin_User_Managed.php:262
+msgid "Filter User"
+msgstr "Filter Gebruiker"
+
+#: include/module/admin/SLP_Extenders_Admin_User_Managed.php:266
+msgid "Enter the store user to filter on:"
+msgstr "Geef de store gebruikersnaam om op te filteren:"
+
+#: include/module/admin/SLP_Extenders_Admin_User_Managed.php:492
+#: include/module/admin/SLP_Extenders_Admin_User_Managed.php:506
+#: include/module/adminui/SLP_Extenders_AdminUI_UserManager_Table.php:138
+#: include/module/adminui/SLP_Extenders_AdminUI_UserManager_Table.php:186
+msgid "Allow"
+msgstr "Toestaan"
+
+#: include/module/admin/SLP_Extenders_Admin_User_Managed.php:493
+#: include/module/admin/SLP_Extenders_Admin_User_Managed.php:507
+#: include/module/adminui/SLP_Extenders_AdminUI_UserManager_Table.php:139
+#: include/module/adminui/SLP_Extenders_AdminUI_UserManager_Table.php:187
+msgid "Disallow"
+msgstr "Niet Toestaan"
+
+#: include/module/admin/SLP_Extenders_Admin_User_Managed.php:520
+msgid "Manage Stores"
+msgstr "Beheren Winkels"
+
+#: include/module/admin/SLP_Extenders_Admin_User_Managed.php:521
+msgid "Locations"
+msgstr "Locaties"
+
+#: include/module/admin/SLP_Extenders_Admin_User_Managed.php:538
+#: include/module/adminui/SLP_Extenders_AdminUI_UserManager_Table.php:324
+msgid "Disallowed"
+msgstr "Niet Toegestaan"
+
+#: include/module/admin/SLP_Extenders_Admin_User_Managed.php:542
+#: include/module/adminui/SLP_Extenders_AdminUI_UserManager_Table.php:324
+msgid "Allowed"
+msgstr "Toegestaan"
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:83
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:84
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:147
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:506
+msgid "Add Event"
+msgstr "Voeg Event Toe"
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:110
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:382
+msgid "Event Buttons"
+msgstr "Event Buttons"
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:148
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_AddEdit.php:150
+msgid "Add"
+msgstr "Toevoegen"
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:160
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:509
+msgid "Edit Event"
+msgstr "Bewerk Event"
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:161
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_AddEdit.php:164
+msgid "Update"
+msgstr "Bijwerken"
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:216
+msgid "Saved event icons live here:"
+msgstr "Opgeslagen event icons bevinden zich hier:"
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:233
+msgid "The name of the event."
+msgstr "De naam van het event."
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:244
+msgid "The slug for this event."
+msgstr "De slug voor dit event."
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:258
+msgid "Event Start"
+msgstr "Event Start"
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:259
+msgid "The start date and time for this event."
+msgstr "De start daum and tijd voor dit event."
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:272
+msgid "Event End"
+msgstr "Event Einde"
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:273
+msgid "The end date and time for this event."
+msgstr "De eind datum en tijd voor dit event."
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:282
+msgid "No Event Category"
+msgstr "Geen Event Categorie"
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:285
+msgid "Event Category"
+msgstr "Event Categorie"
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:286
+msgid "The category for this event."
+msgstr "De categorie voor dit event."
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:287
+#: include/module/options/SLP_Extenders_Options.php:242
+#: include/module/text/SLP_Extenders_Text.php:191
+#, php-format
+msgid "The <a href=\"%s\">Event Category Manager</a>"
+msgstr "De <a href=\"%s\">Event Categorie Manager</a>"
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:289
+#: include/module/options/SLP_Extenders_Options.php:243
+#: include/module/text/SLP_Extenders_Text.php:192
+msgid " provides a full management interface for Event Categories."
+msgstr " levert een compleet beheer interface voor Event Categorieën."
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:298
+msgid "No Event Status"
+msgstr "Geen Event Status"
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:301
+msgid "Event Status"
+msgstr "Event Status"
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:302
+msgid "The status for this event."
+msgstr "De status voor dit event."
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:303
+#: include/module/options/SLP_Extenders_Options.php:245
+#: include/module/text/SLP_Extenders_Text.php:194
+#, php-format
+msgid "The <a href=\"%s\">Event Status Manager</a>"
+msgstr "De <a href=\"%s\">Event Status Manager</a>"
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:305
+#: include/module/options/SLP_Extenders_Options.php:246
+#: include/module/text/SLP_Extenders_Text.php:195
+msgid " provides a full management interface for Event Statuses."
+msgstr " levert een compleet beheer interface voor Event Statussen."
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:313
+#: include/module/events/SLP_Extenders_Events_Object.php:136
+msgid "Event URL"
+msgstr "Event URL"
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:314
+msgid "The url to show more information on this event."
+msgstr "De url die meer informatie toont over dit event."
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:322
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_AddEdit.php:253
+#: include/module/events/SLP_Extenders_Events_Object.php:138
+#: include/module/social/SLP_Extenders_Social_Media_Object.php:124
+msgid "Description"
+msgstr "Omschrijving"
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:323
+msgid "The description for this event."
+msgstr "De beschrijving voor dit event."
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:333
+msgid "Event Hidden"
+msgstr "Event Verborgen"
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:341
+#: include/module/events/SLP_Extenders_Events_Object.php:137
+msgid "Event Icon"
+msgstr "Event Icon"
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:342
+msgid "The url to the icon for this event."
+msgstr "De url naar het icon voor dit event."
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:364
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_AddEdit.php:304
+msgid "Cancel"
+msgstr "Annuleer"
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:369
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_AddEdit.php:309
+msgid "Reset Form"
+msgstr "Reset Formulier"
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:445
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_AddEdit.php:385
+#, php-format
+msgid "Could not read icon directory %s"
+msgstr "Kon icon directory %s niet lezen"
+
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:507
+msgid "Use the button below to add an event object."
+msgstr "Gebruik de onderstaande knop om een event object toe te voegen."
+
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_AddEdit.php:510
+msgid "Use the button below to update the event object."
+msgstr "Gebruik de onderstaande knop om het event object bij te werken."
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_Table.php:249
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_Table.php:233
+msgid "Edit"
+msgstr "Bewerk"
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_Table.php:255
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_Table.php:239
+msgid "Delete"
+msgstr "Verwijder"
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_Table.php:258
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_Table.php:242
+#, php-format
+msgid "Delete %s?"
+msgstr "Verwijder %s?"
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_Table.php:327
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_Table.php:301
+msgid "Delete Permanently"
+msgstr "Verwijder Voorgoed"
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_Table.php:359
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_Table.php:333
+msgid "Show All"
+msgstr "Toon Alle"
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_Table.php:386
+msgid "Filter Events By"
+msgstr "Filter Events Met"
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_Table.php:402
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_Table.php:376
+msgid "Filter"
+msgstr "Filter"
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_Table.php:518
+msgid "No events were found."
+msgstr "Geen events gevonden."
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_Table.php:616
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_Table.php:728
+msgid "Manage Events"
+msgstr "Beheer Events"
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_Table.php:632
+msgid "Manage the list of registered events"
+msgstr "Beheer de lijst van geregistreerde events"
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_Table.php:668
+msgid "Most Used"
+msgstr "Meest Gebruikt"
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_Table.php:684
+msgid "You cannot modify this Taxonomy."
+msgstr "Je kunt deze Taxonomie niet wijzigen."
+
+# @ slp-extenders
+#: include/module/adminui/SLP_Extenders_AdminUI_EventManager_Table.php:690
+#, php-format
+msgid "+ %s"
+msgstr "+ %s"
+
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_AddEdit.php:85
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_AddEdit.php:86
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_AddEdit.php:149
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_AddEdit.php:446
+msgid "Add Social Media"
+msgstr "Social Media Toevoegen"
+
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_AddEdit.php:112
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_AddEdit.php:322
+msgid "Social Buttons"
+msgstr "Social Knoppen"
+
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_AddEdit.php:163
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_AddEdit.php:449
+msgid "Edit Social Media"
+msgstr "Bewerk Social Media"
+
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_AddEdit.php:215
+msgid "Saved social icons live here:"
+msgstr "Opgeslagen social icons zijn hier:"
+
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_AddEdit.php:233
+msgid "The name of the social medium."
+msgstr "De naam van het social medium."
+
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_AddEdit.php:244
+msgid "The slug for this social medium."
+msgstr "De slug voor dit social medium."
+
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_AddEdit.php:254
+msgid "The description for this social medium."
+msgstr "De omschrijving voor dit social medium."
+
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_AddEdit.php:262
+msgid "Social Base URL"
+msgstr "Social Basis URL"
+
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_AddEdit.php:263
+msgid "The base url for this social medium, e.g. https://twitter.com."
+msgstr "De basis url voor dit social medium, bv. http://twitter.com."
+
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_AddEdit.php:273
+msgid "Social Hidden"
+msgstr "Social Verborgen"
+
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_AddEdit.php:281
+#: include/module/social/SLP_Extenders_Social_Media_Object.php:123
+msgid "Social Icon"
+msgstr "Social Icon"
+
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_AddEdit.php:282
+msgid "The url to the icon for this social medium."
+msgstr "De url voor het icon van dit social medium."
+
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_AddEdit.php:447
+msgid "Use the button below to add a social media object."
+msgstr "Gebruik de onderstaande knop om een social media object toe te voegen."
+
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_AddEdit.php:450
+msgid "Use the button below to update the social media object."
+msgstr "Gebruik de onderstaande knop om het social media object bij te werken."
+
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_Table.php:360
+msgid "Filter Socials By"
+msgstr "Filter Socials Door"
+
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_Table.php:491
+msgid "No socials were found."
+msgstr "Geen socials gevonden."
+
+#: include/module/adminui/SLP_Extenders_AdminUI_SocialMedia_Table.php:638
+msgid "Manage Social Media"
+msgstr "Beheer Social Media"
+
+#: include/module/adminui/SLP_Extenders_AdminUI_UserManager_Table.php:75
+msgid "Login name"
+msgstr "Login naam"
+
+#: include/module/adminui/SLP_Extenders_AdminUI_UserManager_Table.php:76
+msgid "Name"
+msgstr "Naam"
+
+#: include/module/adminui/SLP_Extenders_AdminUI_UserManager_Table.php:78
+msgid "User name"
+msgstr "Gebruikersnaam"
+
+#: include/module/adminui/SLP_Extenders_AdminUI_UserManager_Table.php:79
+msgid "E-mail"
+msgstr "E-mail"
+
+#: include/module/adminui/SLP_Extenders_AdminUI_UserManager_Table.php:80
+msgid "Role"
+msgstr "Rol"
+
+#: include/module/adminui/SLP_Extenders_AdminUI_UserManager_Table.php:81
+msgid "#Locations"
+msgstr "#Locaties"
+
+#: include/module/adminui/SLP_Extenders_AdminUI_UserManager_Table.php:264
+msgid "No users were found."
+msgstr "Geen gebruikers gevonden."
+
+#: include/module/ajax/SLP_Extenders_AJAX_User_Managed.php:90
+#: include/module/ajax/SLP_Extenders_AJAX_User_Managed.php:91
+msgid "edit location"
+msgstr "bewerk locatie"
+
+# @ slp-extenders
+#: include/module/events/SLP_Extenders_Events.php:106
+msgctxt "class general name"
+msgid "Event categories"
+msgstr "Event categorieën"
+
+# @ slp-extenders
+#: include/module/events/SLP_Extenders_Events.php:107
+msgctxt "class singular name"
+msgid "Event category"
+msgstr "Event categorie"
+
+# @ slp-extenders
+#: include/module/events/SLP_Extenders_Events.php:108
+msgid "Search Event categories"
+msgstr "Zoek Event categorieën"
+
+# @ slp-extenders
+#: include/module/events/SLP_Extenders_Events.php:109
+msgid "All Event categories"
+msgstr "Alle Event categorieën"
+
+# @ slp-extenders
+#: include/module/events/SLP_Extenders_Events.php:110
+msgid "Parent Event category"
+msgstr "Vader Event categorie"
+
+# @ slp-extenders
+#: include/module/events/SLP_Extenders_Events.php:111
+msgid "Parent Event category:"
+msgstr "Vader Event categorie:"
+
+# @ slp-extenders
+#: include/module/events/SLP_Extenders_Events.php:112
+msgid "Edit Event category"
+msgstr "Bewerk Event categorie"
+
+# @ slp-extenders
+#: include/module/events/SLP_Extenders_Events.php:113
+msgid "Update Event category"
+msgstr "Update Event categorie"
+
+# @ slp-extenders
+#: include/module/events/SLP_Extenders_Events.php:114
+msgid "Add New Event category"
+msgstr "Voeg Nieuwe Event categorie toe"
+
+# @ slp-extenders
+#: include/module/events/SLP_Extenders_Events.php:115
+msgid "New Event category Name"
+msgstr "Nieuwe Event categorie Naam"
+
+# @ slp-extenders
+#: include/module/events/SLP_Extenders_Events.php:116
+msgid "Categories"
+msgstr "Categorieën"
+
+# @ slp-extenders
+#: include/module/events/SLP_Extenders_Events.php:136
+msgctxt "class general name"
+msgid "Event statuses"
+msgstr "Event statussen"
+
+# @ slp-extenders
+#: include/module/events/SLP_Extenders_Events.php:137
+msgctxt "class singular name"
+msgid "Event status"
+msgstr "Event status"
+
+# @ slp-extenders
+#: include/module/events/SLP_Extenders_Events.php:138
+msgid "Search Event statuses"
+msgstr "Zoek Event statussen"
+
+# @ slp-extenders
+#: include/module/events/SLP_Extenders_Events.php:139
+msgid "All Event statuses"
+msgstr "Alle Event statussen"
+
+# @ slp-extenders
+#: include/module/events/SLP_Extenders_Events.php:140
+msgid "Parent Event status"
+msgstr "Vader Event status"
+
+# @ slp-extenders
+#: include/module/events/SLP_Extenders_Events.php:141
+msgid "Parent Event status:"
+msgstr "Vader Event status:"
+
+# @ slp-extenders
+#: include/module/events/SLP_Extenders_Events.php:142
+msgid "Edit Event status"
+msgstr "Bewerk Event status"
+
+# @ slp-extenders
+#: include/module/events/SLP_Extenders_Events.php:143
+msgid "Update Event status"
+msgstr "Update Event status"
+
+# @ slp-extenders
+#: include/module/events/SLP_Extenders_Events.php:144
+msgid "Add New Event status"
+msgstr "Voeg Nieuwe Event status Toe"
+
+# @ slp-extenders
+#: include/module/events/SLP_Extenders_Events.php:145
+msgid "New Event status Name"
+msgstr "Nieuwe Event status Naam"
+
+# @ slp-extenders
+#: include/module/events/SLP_Extenders_Events.php:146
+msgid "Statuses"
+msgstr "Statussen"
+
+# @ slp-extenders
+#: include/module/events/SLP_Extenders_Events.php:224
+msgid "The basic event as provided by default."
+msgstr "Het basis event wat als default wordt aangeboden."
+
+# @ slp-extenders
+#: include/module/events/SLP_Extenders_Events_Object.php:129
+#: include/module/social/SLP_Extenders_Social_Media_Object.php:120
+msgid "ID"
+msgstr "ID"
+
+# @ slp-extenders
+#: include/module/events/SLP_Extenders_Events_Object.php:132
+msgid "Start Date"
+msgstr "Start Datum"
+
+# @ slp-extenders
+#: include/module/events/SLP_Extenders_Events_Object.php:133
+msgid "End Date"
+msgstr "Eind Datum"
+
+# @ slp-extenders
+#: include/module/events/SLP_Extenders_Events_Object.php:134
+msgid "Category"
+msgstr "Categorie"
+
+# @ slp-extenders
+#: include/module/events/SLP_Extenders_Events_Object.php:135
+msgid "Status"
+msgstr "Status"
+
+# @ slp-extenders
+#: include/module/events/SLP_Extenders_Events_Object.php:139
+#: include/module/social/SLP_Extenders_Social_Media_Object.php:126
+msgid "Option Values"
+msgstr "Optie Waarden"
+
+# @ slp-extenders
+#: include/module/events/SLP_Extenders_Events_Object.php:140
+#: include/module/social/SLP_Extenders_Social_Media_Object.php:127
+msgid "Last Updated"
+msgstr "Laatst Bijgewerkt"
+
+# @ slp-extenders
+#: include/module/events/SLP_Extenders_Events_Object.php:325
+#, php-format
+msgid "Could not add %s as a new event object!"
+msgstr "Kon %s niet toevoegen als nieuw event object!"
+
+#: include/module/options/SLP_Extenders_Options.php:133
+msgid "Social Media:"
+msgstr "Social Media:"
+
+#: include/module/options/SLP_Extenders_Options.php:134
+#: include/module/options/SLP_Extenders_Options.php:269
+msgid "Any"
+msgstr "Elk"
+
+#: include/module/options/SLP_Extenders_Options.php:140
+msgid "Social List:"
+msgstr "Social Lijst:"
+
+#: include/module/options/SLP_Extenders_Options.php:141
+msgid "Any Social Media"
+msgstr "Elke Social Media"
+
+#: include/module/options/SLP_Extenders_Options.php:268
+msgid "Event Name:"
+msgstr "Event Naam:"
+
+#: include/module/options/SLP_Extenders_Options.php:275
+msgid "Event List:"
+msgstr "Event Lijst:"
+
+#: include/module/options/SLP_Extenders_Options.php:276
+msgid "Any Event"
+msgstr "Elk Event"
+
+#: include/module/options/SLP_Extenders_Options.php:282
+msgid "Event Category:"
+msgstr "Event Categorie:"
+
+#: include/module/options/SLP_Extenders_Options.php:283
+msgid "Any Category"
+msgstr "Elke Categorie"
+
+#: include/module/options/SLP_Extenders_Options.php:289
+msgid "Event Status:"
+msgstr "Event Status:"
+
+#: include/module/options/SLP_Extenders_Options.php:290
+msgid "Any Status"
+msgstr "Elke Status"
+
+#: include/module/social/SLP_Extenders_Social_Media_Object.php:125
+msgid "Base URL"
+msgstr "Basis URL"
+
+#: include/module/social/SLP_Extenders_Social_Media_Object.php:310
+#: include/module/social/SLP_Extenders_Social_Media_Object.php:312
+#, php-format
+msgid "Could not add %s as a new social object!"
+msgstr "Kon %s niet toevoegen als nieuw social object!"
+
+#: include/module/text/SLP_Extenders_Text.php:62
+msgid "Settings Page"
+msgstr "Instellingen Pagina"
+
+#: include/module/text/SLP_Extenders_Text.php:63
+msgid "User Managed Page"
+msgstr "User Managed Pagina"
+
+#: include/module/text/SLP_Extenders_Text.php:70
+msgid "Social Media Page"
+msgstr "Social Media Pagina"
+
+#: include/module/text/SLP_Extenders_Text.php:71
+msgid "Events Page"
+msgstr "Events Pagina"
+
+#: include/module/text/SLP_Extenders_Text.php:86
+msgid "Enables the User Managed Locations functionality."
+msgstr "Hiermee schakelt u de User Managed Locations functionaliteit in."
+
+#: include/module/text/SLP_Extenders_Text.php:87
+msgid "Define the default settings page."
+msgstr "Definieer de standaard instellingen pagina."
+
+#: include/module/text/SLP_Extenders_Text.php:89
+msgid "Enable User Managed Locations"
+msgstr "User Managed Locations Inschakelen"
+
+#: include/module/text/SLP_Extenders_Text.php:90
+msgid "Default Settings Page"
+msgstr "Standaard Instellingen Pagina"
+
+#: include/module/text/SLP_Extenders_Text.php:93
+msgid "Enables the Social Media functionality."
+msgstr "Hiermee schakelt u de Social Media functionaliteit in."
+
+#: include/module/text/SLP_Extenders_Text.php:94
+msgid "Enables the Events functionality."
+msgstr "Hiermee schakelt u de Events functionaliteit in."
+
+#: include/module/text/SLP_Extenders_Text.php:96
+msgid "Enable Social Media"
+msgstr "Social Media Inschakelen"
+
+#: include/module/text/SLP_Extenders_Text.php:97
+msgid "Enable Event Locations"
+msgstr "Event Locations Inschakelen"
+
+#: include/module/text/SLP_Extenders_Text.php:107
+msgid ""
+"Do not use custom social media destination markers on map, use default Map "
+"Settings markers."
+msgstr ""
+"Gebruik geen persoonlijke social media doel markers op de kaart, gebruik de "
+"standaard Kaart Instellingen markers."
+
+#: include/module/text/SLP_Extenders_Text.php:108
+msgid ""
+"Hide the empty categories from the social media selector. Location Pages in "
+"draft mode are considered \"empty\"."
+msgstr ""
+"Verberg de lege categorieën in de keuze voor sociale media. Location Pages "
+"in conceptmodus worden als 'leeg' beschouwd."
+
+#: include/module/text/SLP_Extenders_Text.php:109
+msgid "This is the graphic used as the map marker on the map."
+msgstr "Dit is de afbeelding die gebruikt wordt als kaart marker op de kaart."
+
+#: include/module/text/SLP_Extenders_Text.php:110
+#: include/module/text/SLP_Extenders_Text.php:183
+msgid ""
+"When enabled an array of icons will be created in the below map results and "
+"info bubble."
+msgstr ""
+"Als aangezet wordt een array van iconen aangemaakt in de resultaten onder de "
+"kaart en in de info ballon."
+
+#: include/module/text/SLP_Extenders_Text.php:111
+msgid ""
+"When enabled a block will appear under each social media icon in the legend. "
+msgstr ""
+"Als aangezet, verschijnt er tekst onder ieder Social Media icon in de "
+"legenda. "
+
+#: include/module/text/SLP_Extenders_Text.php:112
+#: include/module/text/SLP_Extenders_Text.php:114
+msgid ""
+"Add a social media legend to the output with the [slp_social_media legend] "
+"shortcode under Settings / View / Layout."
+msgstr ""
+"Voeg een social media legenda toe aan de uitvoer met de shortcode "
+"[slp_social_media legend] onder Instellingen / Weergave / Layout."
+
+#: include/module/text/SLP_Extenders_Text.php:113
+msgid ""
+"When enabled text will appear under each social media icon in the legend. "
+msgstr ""
+"Als aangezet, verschijnt er tekst onder ieder Social Media icon in de "
+"legenda. "
+
+#: include/module/text/SLP_Extenders_Text.php:115
+msgid "Shows the location where social icons are stored."
+msgstr "Toont de locatie waar sociale icons worden opgeslagen."
+
+#: include/module/text/SLP_Extenders_Text.php:116
+msgid "How many social media should be shown in the overview table."
+msgstr "Hoeveel sociale media moeten worden weergegeven in de overzichtstabel."
+
+#: include/module/text/SLP_Extenders_Text.php:117
+#: include/module/text/SLP_Extenders_Text.php:190
+msgid "Recommended value is 20."
+msgstr "Aanbevolen waarde is 20."
+
+#: include/module/text/SLP_Extenders_Text.php:119
+msgid "The label for the social name selector."
+msgstr "Het label voor de social naam selector."
+
+#: include/module/text/SLP_Extenders_Text.php:120
+msgid ""
+"If set, prepends this text to select \"any social media\" as an option to "
+"the name selector. Set to blank to not provide the any selection."
+msgstr ""
+"Als ingevuld, wordt deze tekst gebruikt als optie voor \"elke social media\" "
+"in de naam selector. Laat leeg om deze optie niet te tonen."
+
+#: include/module/text/SLP_Extenders_Text.php:121
+#: include/module/text/SLP_Extenders_Text.php:128
+msgid "How to show the social media selector on the search form."
+msgstr "Hoe de social media selector op het zoekformulier te tonen."
+
+#: include/module/text/SLP_Extenders_Text.php:122
+#: include/module/text/SLP_Extenders_Text.php:129
+msgid "No will not show the social media selector."
+msgstr "Nee zal de social media selector niet tonen."
+
+#: include/module/text/SLP_Extenders_Text.php:123
+#: include/module/text/SLP_Extenders_Text.php:130
+msgid ""
+"Single shows the social media selector as a single drop down with indents if "
+"there are parent/children relations."
+msgstr ""
+"Enkelvoudig toont de social media selector als een eenvoudige drop down met "
+"inspringen als er vader/kind relaties zijn."
+
+# @ slp-extenders
+#: include/module/text/SLP_Extenders_Text.php:124
+#: include/module/text/SLP_Extenders_Text.php:131
+#: include/module/text/SLP_Extenders_Text.php:203
+#: include/module/text/SLP_Extenders_Text.php:209
+#: include/module/text/SLP_Extenders_Text.php:215
+#: include/module/text/SLP_Extenders_Text.php:221
+msgid ""
+"Cascading shows a single drop down showing parents then children drop downs "
+"on an as-needed basis."
+msgstr ""
+"Cascade toont een eenvoudige drop down voor de vaders en aparte drop downs "
+"voor de kinderen indien nodig."
+
+#: include/module/text/SLP_Extenders_Text.php:126
+msgid "The label for the social slug selector."
+msgstr "Het label voor de social slug selector."
+
+#: include/module/text/SLP_Extenders_Text.php:127
+msgid ""
+"If set, prepends this text to select \"any social media\" as an option to "
+"the slug selector. Set to blank to not provide the any selection."
+msgstr ""
+"Als ingevuld, wordt deze tekst gebruikt als optie voor \"elke social media\" "
+"in de slug selector. Laat leeg om deze optie niet te tonen."
+
+#: include/module/text/SLP_Extenders_Text.php:133
+msgid "Do Not Use Social Media Markers"
+msgstr "Gebruik Geen Social Media Markers"
+
+#: include/module/text/SLP_Extenders_Text.php:134
+msgid "Hide Empty Social Media"
+msgstr "Verberg Lege Social Media"
+
+#: include/module/text/SLP_Extenders_Text.php:135
+msgid "Show Social Media Icons"
+msgstr "Toon Social Media Icons"
+
+#: include/module/text/SLP_Extenders_Text.php:136
+msgid "Add Block To Social Media Legend"
+msgstr "Voeg Block Toe Aan Social Media Legend"
+
+#: include/module/text/SLP_Extenders_Text.php:137
+msgid "Add Text To Social Media Legend"
+msgstr "Voeg Tekst Toe Aan Social Media Legend"
+
+#: include/module/text/SLP_Extenders_Text.php:138
+msgid "Social Icon Location"
+msgstr "Social Icon Locatie"
+
+#: include/module/text/SLP_Extenders_Text.php:139
+#: include/module/text/SLP_Extenders_Text.php:229
+msgid "Number To Show"
+msgstr "Nummer Te Tonen"
+
+#: include/module/text/SLP_Extenders_Text.php:141
+msgid "Social Media Name Selector"
+msgstr "Social Media Naam Selector"
+
+#: include/module/text/SLP_Extenders_Text.php:142
+msgid "Social Name Selector Label"
+msgstr "Social Naam Selector Label"
+
+#: include/module/text/SLP_Extenders_Text.php:143
+msgid "Social Name Selector First Entry"
+msgstr "Social Naam Selector Eerste Optie"
+
+#: include/module/text/SLP_Extenders_Text.php:144
+msgid "Use Social Name Selector"
+msgstr "Gebruik Social Naam Selector"
+
+#: include/module/text/SLP_Extenders_Text.php:146
+msgid "Social Media Slug Selector"
+msgstr "Social Media Slug Selector"
+
+#: include/module/text/SLP_Extenders_Text.php:147
+msgid "Social Slug Selector Label"
+msgstr "Social Slug Selector Label"
+
+#: include/module/text/SLP_Extenders_Text.php:148
+msgid "Social Slug Selector First Entry"
+msgstr "Social Slug Selector Eerste Optie"
+
+#: include/module/text/SLP_Extenders_Text.php:149
+msgid "Use Social Slug Selector"
+msgstr "Gebruik Social Slug Selector"
+
+#: include/module/text/SLP_Extenders_Text.php:153
+#: include/module/text/SLP_Extenders_Text.php:254
+msgid "20"
+msgstr "20"
+
+#: include/module/text/SLP_Extenders_Text.php:162
+msgid "When enabled a newly entered location is published immediately."
+msgstr "Als aangezet worden nieuwe locaties meteen gepubliceerd."
+
+#: include/module/text/SLP_Extenders_Text.php:163
+msgid ""
+"When disabled, the geocode of a newly entered location is removed to block "
+"publishing."
+msgstr ""
+"Als uitgezet wordt de geocode van een nieuw toegevoegde locatie verwijderd "
+"om publicatie te blokkeren."
+
+#: include/module/text/SLP_Extenders_Text.php:164
+#, php-format
+msgid ""
+"This needs the re-geocoding functionality of %s to publish blocked locations."
+msgstr ""
+"Hiervoor is de her-geocodering functie van %s nodig om geblokkeerde locaties "
+"te publiceren."
+
+#: include/module/text/SLP_Extenders_Text.php:166
+msgid ""
+"When enabled a newly added user is allowed to manage locations immediately."
+msgstr ""
+"Als aangezet mogen nieuwe gebruikers hun eigen locaties meteen beheren."
+
+#: include/module/text/SLP_Extenders_Text.php:167
+msgid ""
+"When enabled an edit button is added to assist managing a users locations."
+msgstr ""
+"Als aangezet wordt een bewerk knop getoond om te helpen een locatie van deze "
+"gebruiker te beheren."
+
+#: include/module/text/SLP_Extenders_Text.php:169
+msgid "Publish Location Immediately"
+msgstr "Publiceer Locatie Direct"
+
+#: include/module/text/SLP_Extenders_Text.php:170
+msgid "Allow new user by default"
+msgstr "Standaard toestaan nieuwe gebruikers"
+
+#: include/module/text/SLP_Extenders_Text.php:171
+msgid "Show edit buttons"
+msgstr "Toon bewerk knoppen"
+
+#: include/module/text/SLP_Extenders_Text.php:173
+msgid "User Managed"
+msgstr "User Managed"
+
+#: include/module/text/SLP_Extenders_Text.php:181
+msgid ""
+"Do not use custom event destination markers on map, use default Map Settings "
+"markers."
+msgstr ""
+"Gebruik geen persoonlijke event doel markers op de kaart, gebruik de "
+"standaard Kaart Instellingen markers."
+
+#: include/module/text/SLP_Extenders_Text.php:182
+msgid ""
+"Hide the empty categories from the event selector. Location Pages in draft "
+"mode are considered \"empty\"."
+msgstr ""
+"Verberg de lege categorieën in de keuze voor events. Location Pages in "
+"conceptmodus worden als 'leeg' beschouwd."
+
+#: include/module/text/SLP_Extenders_Text.php:184
+msgid "When enabled a block will appear under each event icon in the legend. "
+msgstr ""
+"Wanneer ingeschakeld verschijnt er een blok onder elk event icon in de "
+"legenda. "
+
+#: include/module/text/SLP_Extenders_Text.php:185
+#: include/module/text/SLP_Extenders_Text.php:187
+msgid ""
+"Add a event legend to the output with the [slp_event legend] shortcode under "
+"Settings / View / Layout."
+msgstr ""
+"Voeg een event legenda toe aan de uitvoer met de shortcode [slp_event "
+"legend] onder Instellingen / Weergave / Layout."
+
+#: include/module/text/SLP_Extenders_Text.php:186
+msgid "When enabled text will appear under each event icon in the legend. "
+msgstr ""
+"Als aangezet wordt tekst getoond onder ieder event icon in de legenda. "
+
+#: include/module/text/SLP_Extenders_Text.php:188
+msgid "Shows the location where event icons are stored."
+msgstr "Toont de locatie waar event icons worden opgeslagen."
+
+#: include/module/text/SLP_Extenders_Text.php:189
+msgid "How many events should be shown in the overview table."
+msgstr "Hoeveel events moeten worden weergegeven in de overzichtstabel."
+
+# @ slp-extenders
+#: include/module/text/SLP_Extenders_Text.php:198
+#: include/module/text/SLP_Extenders_Text.php:204
+#: include/module/text/SLP_Extenders_Text.php:210
+#: include/module/text/SLP_Extenders_Text.php:216
+msgid "The label for the event name selector."
+msgstr "Het label voor de event naam selector."
+
+#: include/module/text/SLP_Extenders_Text.php:199
+#: include/module/text/SLP_Extenders_Text.php:205
+#: include/module/text/SLP_Extenders_Text.php:211
+#: include/module/text/SLP_Extenders_Text.php:217
+msgid ""
+"If set, prepends this text to select \"any event\" as an option to the name "
+"selector. Set to blank to not provide the any selection."
+msgstr ""
+"Als ingevuld, wordt deze tekst gebruikt als optie voor \"elk event\" in de "
+"naam selector. Laat leeg om deze optie niet te tonen."
+
+#: include/module/text/SLP_Extenders_Text.php:200
+#: include/module/text/SLP_Extenders_Text.php:206
+#: include/module/text/SLP_Extenders_Text.php:212
+#: include/module/text/SLP_Extenders_Text.php:218
+msgid "How to show the event selector on the search form."
+msgstr "Hoe de event selector te tonen op het zoekformulier."
+
+#: include/module/text/SLP_Extenders_Text.php:201
+#: include/module/text/SLP_Extenders_Text.php:207
+#: include/module/text/SLP_Extenders_Text.php:213
+#: include/module/text/SLP_Extenders_Text.php:219
+msgid "No will not show the event selector."
+msgstr "Nee toont de event selector niet."
+
+#: include/module/text/SLP_Extenders_Text.php:202
+#: include/module/text/SLP_Extenders_Text.php:208
+#: include/module/text/SLP_Extenders_Text.php:214
+#: include/module/text/SLP_Extenders_Text.php:220
+msgid ""
+"Single shows the event selector as a single drop down with indents if there "
+"are parent/children relations."
+msgstr ""
+"Enkelvoudig toont de event selector als een eenvoudige drop down met "
+"inspringen als er vader/kind relaties zijn."
+
+#: include/module/text/SLP_Extenders_Text.php:223
+msgid "Do Not Use Event Markers"
+msgstr "Gebruik Geen Event Markers"
+
+#: include/module/text/SLP_Extenders_Text.php:224
+msgid "Hide Empty Events"
+msgstr "Verberg Lege Events"
+
+#: include/module/text/SLP_Extenders_Text.php:225
+msgid "Show Event Icons"
+msgstr "Toon Event Icons"
+
+#: include/module/text/SLP_Extenders_Text.php:226
+msgid "Add Block To Event Legend"
+msgstr "Voeg Block Toe Aan Event Legend"
+
+#: include/module/text/SLP_Extenders_Text.php:227
+msgid "Add Text To Event Legend"
+msgstr "Voeg Tekst Toe Aan Event Legend"
+
+#: include/module/text/SLP_Extenders_Text.php:228
+msgid "Event Icon Location"
+msgstr "Event Icon Locatie"
+
+#: include/module/text/SLP_Extenders_Text.php:230
+msgid "Category and Status settings"
+msgstr "Categorie en Status instellingen"
+
+#: include/module/text/SLP_Extenders_Text.php:232
+msgid "Event Name Selector"
+msgstr "Event Naam Selector"
+
+#: include/module/text/SLP_Extenders_Text.php:233
+msgid "Event Name Selector Label"
+msgstr "Event Naam Selector Label"
+
+#: include/module/text/SLP_Extenders_Text.php:234
+msgid "Event Name Selector First Entry"
+msgstr "Event Naam Selector Eerste Optie"
+
+#: include/module/text/SLP_Extenders_Text.php:235
+msgid "Use Event Name Selector"
+msgstr "Gebruik Event Naam Selector"
+
+#: include/module/text/SLP_Extenders_Text.php:237
+msgid "Event Slug Selector"
+msgstr "Event Slug Selector"
+
+#: include/module/text/SLP_Extenders_Text.php:238
+msgid "Event Slug Selector Label"
+msgstr "Event Slug Selector Label"
+
+#: include/module/text/SLP_Extenders_Text.php:239
+msgid "Event Slug Selector First Entry"
+msgstr "Event Slug Selector Eerste Optie"
+
+#: include/module/text/SLP_Extenders_Text.php:240
+msgid "Use Event Slug Selector"
+msgstr "Gebruik Event Slug Selector"
+
+#: include/module/text/SLP_Extenders_Text.php:242
+msgid "Event Category Selector"
+msgstr "Event Categorie Selector"
+
+#: include/module/text/SLP_Extenders_Text.php:243
+msgid "Event Category Selector Label"
+msgstr "Event Categorie Selector Label"
+
+#: include/module/text/SLP_Extenders_Text.php:244
+msgid "Event Category Selector First Entry"
+msgstr "Event Categorie Selector Eerste Optie"
+
+#: include/module/text/SLP_Extenders_Text.php:245
+msgid "Use Event Category Selector"
+msgstr "Gebruik Event Categorie Selector"
+
+#: include/module/text/SLP_Extenders_Text.php:247
+msgid "Event Status Selector"
+msgstr "Event Status Selector"
+
+#: include/module/text/SLP_Extenders_Text.php:248
+msgid "Event Status Selector Label"
+msgstr "Event Status Selector Label"
+
+#: include/module/text/SLP_Extenders_Text.php:249
+msgid "Event Status Selector First Entry"
+msgstr "Event Status Selector Eerste Optie"
+
+#: include/module/text/SLP_Extenders_Text.php:250
+msgid "Use Event Status Selector"
+msgstr "Gebruik Event Status Selector"
+
+# @ slp-extenders
+#: include/module/text/SLP_Extenders_Text.php:252
+msgid "Events"
+msgstr "Events"
+
+# @ slp-extenders
+#: include/module/ui/SLP_Extenders_UI_Events.php:117
+msgid "Legend for Event Icons"
+msgstr "Legenda voor Event Icons"
+
+#: include/module/ui/SLP_Extenders_UI_Social_Media.php:108
+msgid "Legend for Social Icons"
+msgstr "Legenda voor Social Icons"
+
+#: include/module/user/SLP_Extenders_User_Managed.php:78
+msgid "User is allowed to manage locations."
+msgstr "Gebruiker mag locaties beheren."
+
+#: include/module/user/SLP_Extenders_User_Managed.php:80
+#, php-format
+msgid "Currently managing one location."
+msgid_plural "Currently managing %d locations."
+msgstr[0] "Momenteel beheren van een locatie."
+msgstr[1] "Momenteel beheren van %d locaties."
+
+#: include/module/user/SLP_Extenders_User_Managed.php:83
+msgid "User is not allowed to manage any location."
+msgstr "Gebruiker mag geen enkele locatie beheren."
+
+#: include/module/user/SLP_Extenders_User_Managed.php:88
+msgid "Store Locator Plus"
+msgstr "Store Locator Plus"
+
+#: include/module/user/SLP_Extenders_User_Managed.php:91
+msgid "User Managed Locations"
+msgstr "User Managed Locations"
+
+#~ msgid "Extenders Page"
+#~ msgstr "Extenders Pagina"
+
+# @ slp-extenders
+#~ msgid "Event Location Manager"
+#~ msgstr "Event Location Manager"
+
+# @ slp-extenders
+#, php-format
+#~ msgid "Update event icon version %s to version %s"
+#~ msgstr "Werk event icon versie %s bij naar versie %s"
+
+# @ slp-extenders
+#, php-format
+#~ msgid "Update event object data version %s to version %s"
+#~ msgstr "Werk event object data versie %s bij naar versie %s"
+
+# @ slp-extenders
+#~ msgid "Name My Event or My* or *Event"
+#~ msgstr "Naam Mijn Event of Mijn* of *Event"
+
+# @ slp-extenders
+#~ msgid "Event Name List"
+#~ msgstr "Event Naam Lijst"
+
+# @ slp-extenders
+#~ msgid "All Events"
+#~ msgstr "Alle Events"
+
+# @ slp-extenders
+#~ msgid "All Event Statuses"
+#~ msgstr "Alle Event Statussen"
+
+# @ slp-extenders
+#~ msgid "All Event Categories"
+#~ msgstr "Alle Event Categorieën"
+
+# @ slp-extenders
+#~ msgid "With Event Properties"
+#~ msgstr "Met Event Eigenschappen"
+
+# @ slp-extenders
+#~ msgid "General Event Settings"
+#~ msgstr "Algemene Event Instellingen"
+
+# @ slp-extenders
+#~ msgid "Show Icon Array"
+#~ msgstr "Toon Icon Array"
+
+# @ slp-extenders
+#~ msgid ""
+#~ "When enabled an array of icons will be created in the below map results."
+#~ msgstr ""
+#~ "Als aangezet zal er onder de map resultaten een array van icons getoond "
+#~ "worden."
+
+# @ slp-extenders
+#~ msgid "Show Event Legend"
+#~ msgstr "Toon Event Legenda"
+
+# @ slp-extenders
+#~ msgid "When enabled a legend will appear under the results."
+#~ msgstr ""
+#~ "Als aangezet wordt de legenda van de Event icons onder de resultaten "
+#~ "getoond."
+
+# @ slp-extenders
+#, php-format
+#~ msgid ""
+#~ "Alternatively add the legend to the output with the [slp_event legend] "
+#~ "shortcode via the %s view setting."
+#~ msgstr ""
+#~ "Als alternatief, voeg de legenda toe aan de output met de [slp_event "
+#~ "legend] shortcode via de %s view instelling."
+
+# @ slp-extenders
+#~ msgid "Show Text Under Legend"
+#~ msgstr "Toon Tekst Onder Legenda"
+
+# @ slp-extenders
+#~ msgid "When enabled text will appear under each Event icon in the legend."
+#~ msgstr "Als aangezet wordt de legenda van de Event icons onderaan getoond."
+
+# @ slp-extenders
+#, php-format
+#~ msgid ""
+#~ "Add legend to the output with the [slp_event legend] shortcode via the %s "
+#~ "view setting."
+#~ msgstr ""
+#~ "Voeg een legenda toe aan de output met de [slp_event legend] shortcode "
+#~ "via de %s view instelling."
+
+# @ slp-extenders
+#~ msgid "Save Settings"
+#~ msgstr "Bewaar Instellingen"
+
+# @ slp-extenders
+#~ msgid "Event Search Settings"
+#~ msgstr "Event Zoek Instellingen"
+
+# @ slp-extenders
+#~ msgid "Show Event Name Search"
+#~ msgstr "Toon Event Naam Zoeken"
+
+# @ slp-extenders
+#~ msgid "Whether to show the event name input on the search form."
+#~ msgstr "Al dan niet tonen van de event naam input op het zoekformulier."
+
+# @ slp-extenders
+#~ msgid "Event Name Label"
+#~ msgstr "Event Naam Label"
+
+# @ slp-extenders
+#~ msgid "The label for the event name input field."
+#~ msgstr "Het label voor het event naam input veld."
+
+# @ slp-extenders
+#~ msgid "Event Name Placeholder"
+#~ msgstr "Event Naam Placeholder"
+
+# @ slp-extenders
+#~ msgid "This text is used as placeholder for the event name input field."
+#~ msgstr ""
+#~ "Deze tekst wordt gebruikt als placeholder voor het event naam input veld."
+
+# @ slp-extenders
+#~ msgid "Show Event List Search"
+#~ msgstr "Toon Event Lijst Zoeken"
+
+# @ slp-extenders
+#~ msgid ""
+#~ "Whether to show the event name selector as a single drop down list of "
+#~ "event names."
+#~ msgstr ""
+#~ "Al dan niet tonen van de event naam selector als drop down lijst van "
+#~ "event namen."
+
+# @ slp-extenders
+#~ msgid "Event Name Select Label"
+#~ msgstr "Event Naam Selectie Label"
+
+# @ slp-extenders
+#~ msgid "Any Event Name Label"
+#~ msgstr "Elk Event Naam Label"
+
+# @ slp-extenders
+#~ msgid ""
+#~ "If set, prepends this text to select \"any event name\" as an option to "
+#~ "the selector. Set to blank to not provide the any selection."
+#~ msgstr ""
+#~ "Als ingevuld, wordt deze tekst gebruikt als optie voor \"elke event "
+#~ "naam\" in de selector. Laat leeg om deze optie niet te tonen."
+
+# @ slp-extenders
+#~ msgid "Show Categories On Search"
+#~ msgstr "Toon Categorieën Op Zoekformulier"
+
+# @ slp-extenders
+#~ msgid "No"
+#~ msgstr "Nee"
+
+# @ slp-extenders
+#~ msgid "Single"
+#~ msgstr "Enkelvoudig"
+
+# @ slp-extenders
+#~ msgid "Cascading"
+#~ msgstr "Cascade"
+
+# @ slp-extenders
+#~ msgid "How to show the event category selector on the search form."
+#~ msgstr "Hoe de event categorie selector te tonen op het zoekformulier."
+
+# @ slp-extenders
+#~ msgid "No will not show the category selector."
+#~ msgstr "Nee toont de categorie selector niet."
+
+# @ slp-extenders
+#~ msgid ""
+#~ "Single shows the category selector as a single drop down with indents if "
+#~ "there are parent/children relations."
+#~ msgstr ""
+#~ "Enkelvoudig toont de categorie selector als een eenvoudige drop down met "
+#~ "inspringen als er vader/kind relaties zijn."
+
+# @ slp-extenders
+#~ msgid "Category Select Label"
+#~ msgstr "Categorie Selectie Label"
+
+# @ slp-extenders
+#~ msgid "The label for the category selector."
+#~ msgstr "Het label voor de categorie selector."
+
+# @ slp-extenders
+#~ msgid "Any Category Label"
+#~ msgstr "Elk Categorie Label"
+
+# @ slp-extenders
+#~ msgid ""
+#~ "If set, prepends this text to select \"any category\" as an option to the "
+#~ "selector. Set to blank to not provide the any selection."
+#~ msgstr ""
+#~ "Als ingevuld, wordt deze tekst gebruikt als optie voor \"elke categorie\" "
+#~ "in de selector. Laat leeg om deze optie niet te tonen."
+
+# @ slp-extenders
+#~ msgid "Show Statuses On Search"
+#~ msgstr "Toon Statussen Op Zoekformulier"
+
+# @ slp-extenders
+#~ msgid "How to show the event status selector on the search form."
+#~ msgstr "Hoe de event status selector te tonen op het zoekformulier."
+
+# @ slp-extenders
+#~ msgid "No will not show the status selector."
+#~ msgstr "Nee toont de status selector niet."
+
+# @ slp-extenders
+#~ msgid ""
+#~ "Single shows the status selector as a single drop down with indents if "
+#~ "there are parent/children relations."
+#~ msgstr ""
+#~ "Enkelvoudig toont de status selector als een eenvoudige drop down met "
+#~ "inspringen als er vader/kind relaties zijn."
+
+# @ slp-extenders
+#~ msgid "Status Select Label"
+#~ msgstr "Status Selectie Label"
+
+# @ slp-extenders
+#~ msgid "The label for the status selector."
+#~ msgstr "Het label voor de status selector."
+
+# @ slp-extenders
+#~ msgid "Any Status Label"
+#~ msgstr "Elk Status Label"
+
+# @ slp-extenders
+#~ msgid ""
+#~ "If set, prepends this text to select \"any status\" as an option to the "
+#~ "selector. Set to blank to not provide the any selection."
+#~ msgstr ""
+#~ "Als ingevuld, wordt deze tekst gebruikt als optie voor \"elke status\" in "
+#~ "de selector. Laat leeg om deze optie niet te tonen."
+
+# @ slp-extenders
+#~ msgid "No event categories defined yet."
+#~ msgstr "Nog geen event categorieën gedefinieerd."
+
+# @ slp-extenders
+#~ msgid ""
+#~ "This event category list is based on the custom taxonomy setup by Store "
+#~ "Locator Plus."
+#~ msgstr ""
+#~ "Deze event categorie lijst is gebaseerd op de specifieke taxonomie "
+#~ "gedefinieerd door Store Locator Plus."
+
+# @ slp-extenders
+#~ msgid ""
+#~ "It is a dedicated taxonomy to be used to assign categories to events in "
+#~ "the Event Location Manager add-on."
+#~ msgstr ""
+#~ "Het is een speciale taxonomie die gebruikt wordt om categorieën toe te "
+#~ "wijzen aan events in de Event Location Manager add-on."
+
+# @ slp-extenders
+#~ msgid ""
+#~ "The event category links will show a list of events for that category."
+#~ msgstr ""
+#~ "The event categorie links tonen een lijst van events voor die categorie."
+
+# @ slp-extenders
+#~ msgid "Event Category List"
+#~ msgstr "Event Categorie Lijst"
+
+# @ slp-extenders
+#~ msgid "No event statuses defined yet."
+#~ msgstr "Nog geen event statussen gedefinieerd."
+
+# @ slp-extenders
+#~ msgid ""
+#~ "This event status list is based on the custom taxonomy setup by Store "
+#~ "Locator Plus."
+#~ msgstr ""
+#~ "Deze event status lijst is gebaseerd op de specifieke taxonomie "
+#~ "gedefinieerd door Store Locator Plus."
+
+# @ slp-extenders
+#~ msgid ""
+#~ "It is a dedicated taxonomy to be used to assign statuses to events in the "
+#~ "Event Location Manager add-on."
+#~ msgstr ""
+#~ "Het is een speciale taxonomie die gebruikt wordt om een status toe te "
+#~ "wijzen aan events in de Event Location Manager add-on."
+
+# @ slp-extenders
+#~ msgid "The event status links will show a list of events for that status."
+#~ msgstr ""
+#~ "The event status links tonen een lijst van events voor die categorie."
+
+# @ slp-extenders
+#~ msgid "Event Status List"
+#~ msgstr "Event Status Lijst"
+
+# @ slp-extenders
+#, php-format
+#~ msgid ""
+#~ "View the <a href=\"%s\" target=\"csa\">documentation</a> for more info."
+#~ msgstr ""
+#~ "Zie de <a href=\"%s\" target=\"csa\">documentatie</a> voor meer info."
+
+# @ slp-extenders
+#~ msgid "Settings saved."
+#~ msgstr "Instellingen opgeslagen."
+
+# @ slp-extenders
+#, php-format
+#~ msgid "View all events filed under %s (id %d)"
+#~ msgstr "Toon alle events toegewezen aan %s (id %d)"
+
+# @ slp-extenders
+#, php-format
+#~ msgid "Feed for all events filed under %s"
+#~ msgstr "Feed voor alle events toegewezen aan %s"
+
+# @ slp-extenders
+#~ msgid "Click to toggle"
+#~ msgstr "Klik om te toggelen"
+
+# @ slp-extenders
+#~ msgid "Store Locator Plus : Event Location Manager"
+#~ msgstr "Store Locator Plus : Event Location Manager"
+
+# @ slp-extenders
+#~ msgid ""
+#~ "A premium add-on pack for Store Locator Plus that enables the option to "
+#~ "manage events."
+#~ msgstr ""
+#~ "Een premium add-on pakket voor Store Locator Plus die het mogelijk maakt "
+#~ "om events te beheren."
+
+# @ slp-extenders
+#~ msgid "Store Locator Plus - De B.A.A.T."
+#~ msgstr "Store Locator Plus - De B.A.A.T."
+
+# @ slp-extenders
+#~ msgid "https://www.de-baat.nl/slp/"
+#~ msgstr "https://www.de-baat.nl/slp/"
+
+# @ slp-extenders
+#~ msgid "https://www.storelocatorplus.com/product/event-location-manager/"
+#~ msgstr "https://www.storelocatorplus.com/product/event-location-manager/"
+
+# @ slp-extenders
+#~ msgid "4.5.01"
+#~ msgstr "4.5.01"

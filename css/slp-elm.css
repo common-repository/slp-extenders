@@ -1,0 +1,130 @@
+/**
+ ** file: slp-elm.css
+ ** label: SLP-ELM
+ ** description: Some styles for showing the ELM results.
+ **
+ **/
+
+/*---------------------
+ * Map
+ *---------------------*/
+
+/*---------------------
+ * Results
+ *---------------------*/
+img.slp_event_icon {
+	max-width: 32px;
+	padding: 2px;
+}
+
+
+/* Event Name Search Inputs */
+#elm_elm_event_name_selector {
+/*  display: block; */
+  clear: both;
+}
+
+#elm_elm_event_name_selector input {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+}
+
+/* Event Slug Search Inputs */
+#elm_elm_event_slug_selector {
+  display: inline-block;
+}
+
+#elm_elm_event_slug_selector .elm_event_slug_selector.parent {
+  display: block;
+  float: left;
+}
+
+#elm_elm_event_slug_selector .elm_event_slug_selector.child {
+  display: none;
+  float: left;
+  margin-left: 0.2em;
+}
+
+#elm_event_slug_cascade_dropdowns {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+}
+
+/* Event Category Search Inputs */
+#elm_elm_event_category_selector {
+  display: inline-block;
+}
+
+#elm_elm_event_category_selector .elm_event_category_selector.parent {
+  display: block;
+  float: left;
+}
+
+#elm_elm_event_category_selector .elm_event_category_selector.child {
+  display: none;
+  float: left;
+  margin-left: 0.2em;
+}
+
+#elm_event_category_cascade_dropdowns {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+}
+
+/* Event Status Search Inputs */
+#elm_elm_event_status_selector {
+  display: inline-block;
+  width: 100%;
+}
+
+#elm_elm_event_status_selector .elm_event_status_selector.parent {
+  display: block;
+  float: left;
+}
+
+#elm_elm_event_status_selector .elm_event_status_selector.child {
+  display: none;
+  float: left;
+  margin-left: 0.2em;
+}
+
+#elm_event_status_cascade_dropdowns {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+}
+
+#event_legend {
+  border: 3px double #444444;
+  padding: 12px;
+  margin: 20px 0px 10px 0px;
+}
+
+#event_legend .legend_text {
+  display: inline-block;
+  margin-left: 6px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+#event_list {
+  margin: -20px 0px 0px 0px;
+}
+
+#event_legend .legend_header {
+  display: inline-block;
+  margin: -60px 0px 0px 0px;
+  padding: 0px 10px 0px 10px;
+  background-color: #EEEEEE;
+  font-style: italic;
+  vertical-align: middle;
+}
+
+#event_legend .tagalong_legend_icon {
+  display: inline-block;
+  margin-bottom: 12px;
+  min-width: 190px;
+}

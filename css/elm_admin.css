@@ -1,0 +1,142 @@
+/**
+ * Event Location Manager Custom Admin CSS
+ */
+
+
+/* Popup Categorization Selector */
+div#slp_elm_selector div#slp_elm_fields li {
+    padding: 3px 0px 0px 0px;
+    margin: 0px;
+}
+div#slp_elm_selector div#slp_elm_fields ul {
+    text-align: left;
+}
+div#slp_elm_selector div#slp_elm_fields ul.children {
+    margin: 0px;
+    padding-left: 14px;
+}
+
+/* EventData list items */
+span.eventname {
+    display: inline-block;
+    margin-right: 10px;
+    min-width: 150px;
+    text-align: right;
+}
+
+/* EventData edit form */
+div#slp_elm_editform {
+
+}
+
+/* EventData add form */
+div#event-icon_icon_row.slp_icon_row{
+    margin: 6px 3px 24px 3px;
+    width: 100%;
+}
+
+/* Hide settings for datetime formats */
+.slp-ext-datetime-format, .slp-ext-date-format, .slp-ext-time-format {
+    display: none;
+}
+
+/* Inline manage location event_data editor */
+td#slp_manual_update_table_right_cell {
+    min-width: 400px;
+    position: relative;
+    display: block;
+}
+div#slp_edit_right_column {
+    min-width: 200px;
+    min-height: 300px;
+    float: left;
+}
+
+/* Manage Location Display */
+div.slp_elm_entry {
+    margin-bottom: 6px;
+    margin-right: 8px;
+    text-align: center;
+}
+span.slp_elm_entry_name {
+    width: 100%;
+    display:block;
+}
+img.slp_map_marker {
+    vertical-align: text-top;
+}
+
+div#csa-slp-elm-location-filters select {
+  clear: both;
+  float: none;
+  height: auto;
+}
+
+div#csa-slp-elm-location-filters label {
+  width: 115px;
+}
+.elm-tabs-panel LABEL {
+    text-align: left;
+}
+.elm-tabs-panel {
+	min-height:42px;
+	max-height:200px;
+	overflow:auto;
+	padding:0 .9em;
+	border:1px solid #dfdfdf;
+	background-color:#fdfdfd;
+}
+.elm-postbox {
+	display:inline-block;
+	margin-bottom:10px;
+	padding:0;
+	line-height:1.2;
+	position:relative;
+	min-width:255px;
+	border:1px solid #e5e5e5;
+	-webkit-box-shadow:0 1px 1px rgba(0,0,0,.04);
+	box-shadow:0 1px 1px rgba(0,0,0,.04);
+	background:#fff;
+}
+
+/* Text formatting */
+p.lvl1 {
+    margin-left: 18px;
+}
+p.footernote {
+    font-style: italic;
+    color: #666666;
+}
+
+/* Edit Page EventDatas LI */
+/*
+div#slp_elm_fields ul {
+    clear: both;
+    float:none;
+    width: 100%;
+}
+div#slp_elm_fields li {
+    clear: both;
+    float:none;
+    display: 100%;
+    line-height: 1em;
+}
+div#slp_elm_fields label {
+    clear: both;
+    float: none;
+    text-align: left;
+    margin: 0px;
+}
+div#slp_elm_fields ul.children {
+    margin-left: 20px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+*/
+
+/**
+ * Event Location Manager Tab / Store EventDatas Panel / EventData List
+ **/
+#wpcsl-option-store_elm_accounts #wpcsl_settings_group-list ul.children {
+    padding: 3px 0px 3px 24px;
+}

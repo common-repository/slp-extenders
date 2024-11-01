@@ -1,0 +1,14 @@
+/**
+ ** file: slp-uml.css
+ ** label: SLP-UML
+ ** description: Some styles for showing the UML results.
+ **
+ **/
+
+/*---------------------
+ * Results
+ *---------------------*/
+a.uml-buttons {
+	width: 20px;
+	color: #3b8dbd;
+}

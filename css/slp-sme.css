@@ -1,0 +1,84 @@
+/**
+ ** file: slp-sme.css
+ ** label: SLP-SME
+ ** description: Some styles for showing the SME results.
+ **
+ **/
+
+/*---------------------
+ * Map
+ *---------------------*/
+
+/*---------------------
+ * Results
+ *---------------------*/
+img.slp_social_icon {
+	max-width: 32px;
+	padding: 2px;
+}
+
+/* Social Name Search Inputs */
+#sme_sme_social_name_selector {
+/*  display: block; */
+  clear: both;
+}
+
+#sme_sme_social_name_selector input {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+}
+
+/* Social Slug Search Inputs */
+#sme_sme_social_slug_selector {
+  display: inline-block;
+}
+
+#sme_sme_social_slug_selector .sme_social_slug_selector.parent {
+  display: block;
+  float: left;
+}
+
+#sme_sme_social_slug_selector .sme_social_slug_selector.child {
+  display: none;
+  float: left;
+  margin-left: 0.2em;
+}
+
+#sme_social_slug_cascade_dropdowns {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+}
+
+#social_legend {
+  border: 3px double #444444;
+  padding: 12px;
+  margin: 20px 0px 10px 0px;
+}
+
+#social_legend .legend_text {
+  display: inline-block;
+  margin-left: 6px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+#social_list {
+  margin: -20px 0px 0px 0px;
+}
+
+#social_legend .legend_header {
+  display: inline-block;
+  margin: -60px 0px 0px 0px;
+  padding: 0px 10px 0px 10px;
+  background-color: #EEEEEE;
+  font-style: italic;
+  vertical-align: middle;
+}
+
+#social_legend .tagalong_legend_icon {
+  display: inline-block;
+  margin-bottom: 12px;
+  min-width: 190px;
+}

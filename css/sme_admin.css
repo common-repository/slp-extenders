@@ -1,0 +1,114 @@
+/**
+ * Social Media Extender Custom Admin CSS
+ */
+
+
+/* Popup Categorization Selector */
+div#slp_sme_selector div#slp_sme_fields li {
+    padding: 3px 0px 0px 0px;
+    margin: 0px;
+}
+div#slp_sme_selector div#slp_sme_fields ul {
+    text-align: left;
+}
+div#slp_sme_selector div#slp_sme_fields ul.children {
+    margin: 0px;
+    padding-left: 14px;
+}
+
+/* SocialData list items */
+span.socialname {
+    display: inline-block;
+    margin-right: 10px;
+    min-width: 150px;
+    text-align: right;
+}
+
+/* SocialData edit form */
+div#slp_sme_editform {
+
+}
+
+/* SocialData add form */
+div#social-icon_icon_row.slp_icon_row{
+    margin: 6px 3px 24px 3px;
+    width: 100%;
+}
+
+/* Inline manage location social_data editor */
+td#slp_manual_update_table_right_cell {
+    min-width: 400px;
+    position: relative;
+    display: block;
+}
+div#slp_edit_right_column {
+    min-width: 200px;
+    min-height: 300px;
+    float: left;
+}
+
+/* Manage Location Display */
+div.slp_sme_entry {
+    margin-bottom: 6px;
+    margin-right: 8px;
+    text-align: center;
+}
+span.slp_sme_entry_name {
+    width: 100%;
+    display:block;
+}
+img.slp_map_marker {
+    vertical-align: text-top;
+}
+
+div#csa-slp-sme-location-filters select {
+  clear: both;
+  float: none;
+  height: auto;
+}
+
+div#csa-slp-sme-location-filters label {
+  width: 115px;
+}
+
+/* Text formatting */
+p.lvl1 {
+    margin-left: 18px;
+}
+p.footernote {
+    font-style: italic;
+    color: #666666;
+}
+
+/* Edit Page SocialDatas LI */
+/*
+div#slp_sme_fields ul {
+    clear: both;
+    float:none;
+    width: 100%;
+}
+div#slp_sme_fields li {
+    clear: both;
+    float:none;
+    display: 100%;
+    line-height: 1em;
+}
+div#slp_sme_fields label {
+    clear: both;
+    float: none;
+    text-align: left;
+    margin: 0px;
+}
+div#slp_sme_fields ul.children {
+    margin-left: 20px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+*/
+
+/**
+ * Social Media Extender Tab / Store SocialDatas Panel / SocialData List
+ **/
+#wpcsl-option-store_sme_accounts #wpcsl_settings_group-list ul.children {
+    padding: 3px 0px 3px 24px;
+}
